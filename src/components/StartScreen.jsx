@@ -13,7 +13,7 @@ const StartScreen = ({setOptions, setStart}) => {
     }
   return (
     <div className='fixed flex flex-col justify-center w-96 p-10 rounded-box bg-base-300 top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/3'>
-      <h1 className="text-center text-3xl font-semibold my-4">Welcome to the Trivia Game!</h1>
+      <h1 className="text-center text-primary text-3xl font-semibold my-4">Welcome to the Trivia Game!</h1>
       <p className="my-4">Customise what questions you will get with the options below.</p>
       <select name="categories" className="select select-primary w-full max-w-xs my-4" onChange={(e) => handleSelect(e)}>
         <option disabled selected>
