@@ -1,7 +1,8 @@
 import React from 'react'
 
-const ResultModal = ({score, setFinished}) => {
+const ResultModal = ({score, setFinished, setStart}) => {
   const handleRestart = () => {
+    setStart(false)
     setFinished(false)
   }
 
